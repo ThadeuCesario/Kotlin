@@ -1,6 +1,9 @@
 package fundamentos
 
 fun main(args: Array<String>) {
-    print("Hello");
+    {
+        print("Hello");
+    }
+
     println(" World");
 }
