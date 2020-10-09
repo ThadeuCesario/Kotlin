@@ -37,3 +37,6 @@ atribuir depois para essa variável o tipo <code>string</code>.
 Como o Kotlin é uma linguagem fortemente tipada, precisamos ou inicializar ou 
 inferir a variável.
 </p>
+<strong>Muito cuidado quando aplicar inferências, sempre prefira utilizar as variáveis
+com seu tipo declarado.
+</strong>
