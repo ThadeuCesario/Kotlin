@@ -45,3 +45,11 @@ com seu tipo declarado.
 <p>
 <strong>Constantes</strong> são definidas utilizando a palavra reservada <code>val</code>.
 </p>
+
+<h2>Aula 5</h2>
+<p>
+Uma das vantagens do <code>Kotlin</code>, é que podemos utilizar o <code>Java</code>
+normalmente.
+Portanto, podemos migrar código <code>Java</code> para <code>Kotlin</code>, de forma
+totalmente gradual.
+</p>
