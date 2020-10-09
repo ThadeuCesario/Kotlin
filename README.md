@@ -40,3 +40,8 @@ inferir a variável.
 <strong>Muito cuidado quando aplicar inferências, sempre prefira utilizar as variáveis
 com seu tipo declarado.
 </strong>
+
+<h2>Aula 4</h2>
+<p>
+<strong>Constantes</strong> são definidas utilizando a palavra reservada <code>val</code>.
+</p>
