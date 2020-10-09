@@ -33,3 +33,7 @@ Isso significa que, quando eu crio uma variável do tipo <code>int</code>, não 
 atribuir depois para essa variável o tipo <code>string</code>.
 </p>
 <strong>Ficou mal acostumado pelo Javascript, né? haha</strong>
+<p>
+Como o Kotlin é uma linguagem fortemente tipada, precisamos ou inicializar ou 
+inferir a variável.
+</p>
