@@ -32,4 +32,4 @@ O <code>Kotlin</code> é uma linguagem fortemente tipada. <br/>
 Isso significa que, quando eu crio uma variável do tipo <code>int</code>, não posso
 atribuir depois para essa variável o tipo <code>string</code>.
 </p>
-<mark>Ficou mal acostumado pelo Javascript, né? haha</mark>
+<strong>Ficou mal acostumado pelo Javascript, né? haha</strong>
