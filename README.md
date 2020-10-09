@@ -53,3 +53,25 @@ normalmente.
 Portanto, podemos migrar código <code>Java</code> para <code>Kotlin</code>, de forma
 totalmente gradual.
 </p>
+
+<h2>Aula 6</h2>
+<strong>Tipos numéricos</strong>
+<table>
+<tr>
+<td>byte</td>
+<td>1 byte</td>
+</tr>
+<tr>
+<td>short</td>
+<td>2 bytes</td>
+</tr>
+<tr>
+<td>int</td>
+<td>4 bytes</td>
+</tr>
+<tr>
+<td>long</td>
+<td>8 bytes</td>
+</tr>
+</table>
+<p>Lembrando que os tipos numéricos possuem um range que vão dos negativos aos positivos.</p>
