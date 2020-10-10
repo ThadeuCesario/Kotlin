@@ -95,3 +95,10 @@ totalmente gradual.
 <strong>3)<br/></strong>
 <code>fun nomeFuncao(param: Tipo){}</code>
 </p>
+
+<h2>Aula 9</h2>
+<strong>Template String</strong>
+<p>
+Veja que assim como no <code>Javascript</code>, o <code>Kotlin</code> possui a possibilidade
+de realizarmos interpolação de variáveis utilizando o template string.
+</p>
