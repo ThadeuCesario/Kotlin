@@ -193,4 +193,7 @@ fun main(args: Array<String>) {
 }
 </code>
 </pre>
-
+<strong>Apenas uma observação importante, é que obrigatoriamente a última setença do bloco deve ser o retorno
+do valor para aquela expressão. <br/> Por isso temos:<br/><br/>
+</strong>
+<code>num1;</code> ao final do <code>if</code>, e <code>num2;</code> ao final do <code>else</code>.
