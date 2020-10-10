@@ -7,6 +7,9 @@ fun main(args: Array<String>) {
     * Vamos aplicar o operador range, que é um conceito muito interessante inserido no Kotlin.
     * Para utilizar o operador range, basta colocar esses dois pontos '..'
     * No Caso abaixo estou me referindo ao intervalo de números que estão entre 9 e 10 (incluindo eles!).
+    * Cuidado que no caso abaixo estamos verificando em um Range de valores INTEIROS.
+    * Portanto quando ele pegar o valor de notas, será feito um truncamento do valor antes de realizar a comparação dentro
+    * do range.
     * */
     if (nota in 9..10){
         println("Fantástico");
