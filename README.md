@@ -75,3 +75,8 @@ totalmente gradual.
 </tr>
 </table>
 <p>Lembrando que os tipos numéricos possuem um range que vão dos negativos aos positivos.</p>
+
+<h2>Aula 6</h2>
+<p>
+<strong>Tudo em Kotlin é objeto, inclusive os literais e tipos básicos.</strong>
+</p>

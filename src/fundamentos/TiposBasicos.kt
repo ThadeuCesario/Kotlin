@@ -24,6 +24,10 @@ fun main(args: Array<String>) {
 
     println(listOf(num1, num2, num3, num4, num5, num6, char, boolean));
     println(2 is Int);
+    println(9_223_372_036_854_775_807 is Long);
+    println(1.0 is Double);
+
+    //Tudo em Kotlin é objeto.
 
     if(2 is Int){
         println("é inteiro");
