@@ -90,4 +90,8 @@ totalmente gradual.
 <br/>
 <strong>2)<br/></strong>
 <code>fun nomeFuncao(): TipoRetorno{}</code>
+<br/>
+<br/>
+<strong>3)<br/></strong>
+<code>fun nomeFuncao(param: Tipo){}</code>
 </p>
