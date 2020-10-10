@@ -120,4 +120,9 @@ fun main(args: Array<String>) {
 </code>
 </pre>
 
-<strong>Veja que estou com o dec</strong>
+<h2>Aula 11</h2>
+<strong>Safe Call Operator</strong>
+<p>
+Muito semelhante ao java pode utilizar o interrogação para evitarmos acessar o atributo ou método de um objeto que 
+esteja <code>null</code>.
+</p>
