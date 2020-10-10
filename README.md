@@ -84,5 +84,10 @@ totalmente gradual.
 <h2>Aula 8</h2>
 <p>
 <strong>Como criar funções.</strong><br/>
+<strong>1)<br/></strong>
 <code>fun nomeFuncao(param: Tipo): TipoRetorno{}</code>
+<br/>
+<br/>
+<strong>2)<br/></strong>
+<code>fun nomeFuncao(): TipoRetorno{}</code>
 </p>
