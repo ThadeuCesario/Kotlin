@@ -197,3 +197,21 @@ fun main(args: Array<String>) {
 do valor para aquela expressão. <br/> Por isso temos:<br/><br/>
 </strong>
 <code>num1;</code> ao final do <code>if</code>, e <code>num2;</code> ao final do <code>else</code>.
+
+<h2>Aula 14</h2>
+<strong>Utilizando when</strong>
+<pre>
+<code>
+fun main(args: Array<String>) {
+    val nota = 10; //Utilizando inferência
+
+    when(nota){
+        10, 9 -> println("Fantástico");
+        8, 7 -> println("Parabéns");
+        6, 5, 4 -> println("Tem como recuperar");
+        in 0..3 -> println("Te vejo no próximo semestre");
+        else -> println("Nota inválida");
+    }
+}
+</code>
+</pre>
