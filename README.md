@@ -168,4 +168,29 @@ Bem...pelo menos no Kotlin o Elvis não morreu mesmo.
 <br/>
 <strong>
 
+<h2>Aula 13</h2>
+<strong>Estrutura de controle</strong>
+<p>
+Um ponto interessente que temos no <code>Kotlin</code> e não tínhamos no <code>Java</code>, é que podemos utilizar
+um bloco de <code>if</code> e <code>else</code>, como uma expressão para atribuirmos um valor em uma variável ou constante.
+</p>
+<p>Veja o exemplo do código abaixo</p>
+<pre>
+<code>
+fun main(args: Array<String>) {
+    val num1: Int = 2;
+    val num2: Int = 3;
+
+    val maiorValor = if(num1 > num2) {
+        println("processando");
+        num1;
+    } else {
+        println("processando");
+        num2;
+    }
+
+    println("O maior valor é ${maiorValor}!");
+}
+</code>
+</pre>
 
