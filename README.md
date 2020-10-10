@@ -102,3 +102,22 @@ totalmente gradual.
 Veja que assim como no <code>Javascript</code>, o <code>Kotlin</code> possui a possibilidade
 de realizarmos interpolação de variáveis utilizando o template string.
 </p>
+
+<h2>Aula 10</h2>
+<strong>Lembrando que tudo em Kotlin é um objeto</strong>
+<p>Vamos para algumas considerações importantes. Como dissemos anteriormente, tudo em Kotlin é um objeto.</p>
+<p>E podemos acessar os métodos através do literais, portanto o código abaixo é válido no <code>kotlin</code>.</p>
+
+<pre>
+<code>
+fun main(args: Array<String>) {
+    val a: Int = 33.dec();
+    var b: String = a.toString();
+
+    println("Int: ${a}");
+    println("Primeiro char da string b é: ${b.first()}");
+}
+</code>
+</pre>
+
+<strong>Veja que estou com o dec</strong>
