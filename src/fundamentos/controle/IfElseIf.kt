@@ -22,4 +22,14 @@ fun main(args: Array<String>) {
     } else {
         println("Nota inválida");
     }
+
+
+    /*
+    * Analisando o código abaixo, estamos questionando se o valor 5 está entre o range de 7 e 4.
+    * Bem.. sabemos que está, porém o retorno abaixo será FALSE.
+    * Isso porque, o range funciona sempre do menor para o maior! Não podemos fazer da forma que está que
+    * é do maior para o menor.
+    * */
+    println(5 in 7..4); // false
+    println(5 in 4..7); // true
 }
