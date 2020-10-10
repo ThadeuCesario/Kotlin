@@ -11,4 +11,7 @@ fun soma(a: Int, b: Int = 1): Int{
 fun main(args: Array<String>) {
     val somandoGrupo = soma(100, 50);
     println(somandoGrupo);
+
+    val usandoValorPadrao = soma(10);
+    println(usandoValorPadrao);
 }
