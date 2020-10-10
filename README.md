@@ -161,7 +161,7 @@ fun main(args: Array<String>) {
 <p>Dessa forma utilizamos o <code>operador elvis</code>, que nos permitirá atribuir um valor <code>default</code>
 caso não consiga resolver para o primeiro valor, o valor default será atribuído.
 </p>
-<strong style="green">
+<strong style="color: #0f0">
 Uma observação inútil 😂... 
 O nome do operador foi criado justamente pela semelhança com o emoji do elvis.<br/>
 Bem...pelo menos no Kotlin o Elvis não morreu mesmo.
