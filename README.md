@@ -76,7 +76,13 @@ totalmente gradual.
 </table>
 <p>Lembrando que os tipos numéricos possuem um range que vão dos negativos aos positivos.</p>
 
-<h2>Aula 6</h2>
+<h2>Aula 7</h2>
 <p>
 <strong>Tudo em Kotlin é objeto, inclusive os literais e tipos básicos.</strong>
+</p>
+
+<h2>Aula 8</h2>
+<p>
+<strong>Como criar funções.</strong><br/>
+<code>fun nomeFuncao(param: Tipo): TipoRetorno{}</code>
 </p>
