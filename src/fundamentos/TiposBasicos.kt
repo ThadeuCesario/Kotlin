@@ -15,4 +15,17 @@ fun main(args: Array<String>) {
     //Tipos numéricos Reais
     val num5: Float = 3.14F; //Para declararmos uma variável do tipo float, precisamos colocar o F.
     val num6: Double = 3.14;
+
+    //Tipos caractere
+    val char: Char = '?'; // Veja que foi utilizado aspas simles.
+
+    //Tipo booleano
+    val boolean: Boolean = true;
+
+    println(listOf(num1, num2, num3, num4, num5, num6, char, boolean));
+    println(2 is Int);
+
+    if(2 is Int){
+        println("é inteiro");
+    }
 }
