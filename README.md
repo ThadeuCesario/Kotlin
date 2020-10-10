@@ -126,3 +126,46 @@ fun main(args: Array<String>) {
 Muito semelhante ao java pode utilizar o interrogação para evitarmos acessar o atributo ou método de um objeto que 
 esteja <code>null</code>.
 </p>
+<pre>
+<code>
+fun main(args: Array<String>) {
+    var a: Int? = null; // Safe call operator
+    println(a?.dec());
+}
+</code>
+</pre>
+
+<h2>Aula 12</h2>
+<strong>Operador Elvis</strong>
+<p>
+O operador Elvis nos ajuda a definir um valor default, caso o valor que estamos querendo atribuir seja inválido.
+<br/><br/>
+Veja o o código abaixo que tenho duas constantes.<br/>
+Na primeira constante, o <code>opcional</code> é uma <code>string</code> com um <code>safe call operator</code> e é atribuído
+para essa constante o <code>null</code>.
+<br/><br/>
+Logo abaixo temos a constante <code>obrigatorio</code>, que também é uma <code>string</code>, e estamos atribuindo
+o valor da constante <code>opcional</code>.
+<br/><br/>
+<strong style="color:red">Obviamente ocasionará um erro, pois a constante obrigatorio não possui um safe call operator,
+permitindo a atribuição de valores nulos.</strong>
+</p>
+<pre>
+<code>
+fun main(args: Array<String>) {
+    val opcional: String? = null;
+    val obrigatorio: String = opcional ?: "Valor Default";
+}
+</code>
+</pre>
+<p>Dessa forma utilizamos o <code>operador elvis</code>, que nos permitirá atribuir um valor <code>default</code>
+caso não consiga resolver para o primeiro valor, o valor default será atribuído.
+</p>
+<strong style="green">
+Uma observação inútil 😂... 
+O nome do operador foi criado justamente pela semelhança com o emoji do elvis.<br/>
+Bem...pelo menos no Kotlin o Elvis não morreu mesmo.
+<br/>
+<strong>
+
+
