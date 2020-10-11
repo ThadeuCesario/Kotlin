@@ -28,5 +28,7 @@ fun main(args: Array<String>) {
     * Essa igualdade verificará se os conteúdos dos objetos são iguais.
     * Portanto o resultado é true, sendo que o conteúdo das duas datas são iguais. Isso porque começaram na mesma data.
     * */
-    println("Resultado com '==' ${d1 == d2}")
+    println("Resultado com '==' ${d1 == d2}");
+
+    println("Resultado com equals ${d1.equals(d2)}");
 }
