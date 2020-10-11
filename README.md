@@ -215,3 +215,19 @@ fun main(args: Array<String>) {
 }
 </code>
 </pre>
+
+<h2>Aula 15</h2>
+<strong>Utilizando um laço for com range operator</strong>
+<pre>
+<code>
+fun main(args: Array<String>) {
+    val initialValue: Int = 1;
+    val maxValue: Int = 10;
+    for(value in initialValue..maxValue){
+        println("Verificando o valor do contador $value");
+    }
+}
+</code>
+</pre>
+
+
