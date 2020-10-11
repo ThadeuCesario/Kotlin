@@ -234,9 +234,9 @@ fun main(args: Array<String>) {
 <strong>Utilizando um laço for utilizando o downTo</strong>
 <pre>
 <code>
-for(i in 10 downTo 1){
-    println("i = $i");
-}
+    for(i in 10 downTo 1){
+        println("i = $i");
+    }
 </code>
 </pre>
 
