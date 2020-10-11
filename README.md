@@ -240,4 +240,17 @@ fun main(args: Array<String>) {
 </code>
 </pre>
 
+<h2>Aula 16</h2>
+<strong>Utilizando um laço for, verificando não somente o elemento como também o índice</strong>
+<pre>
+<code>
+fun main(args: Array<String>) {
+    val alunos = arrayListOf<String>("Thadeu",  "Guilherme", "Clayton", "Fernando", "Philipe");
+    for ((indice, aluno) in alunos.withIndex()){
+        println("Indice $indice - Aluno $aluno");
+    }
+}
+</code>
+</pre>
+
 
