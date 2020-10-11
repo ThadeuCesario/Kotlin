@@ -230,4 +230,14 @@ fun main(args: Array<String>) {
 </code>
 </pre>
 
+<h2>Aula 15</h2>
+<strong>Utilizando um laço for utilizando o downTo</strong>
+<pre>
+<code>
+for(i in 10 downTo 1){
+    println("i = $i");
+}
+</code>
+</pre>
+
 
